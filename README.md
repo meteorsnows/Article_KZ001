@@ -193,7 +193,7 @@ Example of Identifier and Reply URL:
 
 Identifier: urn:amazon:cognito:sp:us-east-1_XX123xxXXX
 
-Reply URL: [https://example-setup-app.](https://example-setup-app.auth.us-east-1.amazoncognito.com/saml2/idpresponse)auth.us-east-1.amazoncognito.com[/saml2/idpresponse](https://example-setup-app.auth.us-east-1.amazoncognito.com/saml2/idpresponse)
+Reply URL: ```https://example-setup-app.auth.us-east-1.amazoncognito.com/saml2/idpresponse```
 
 ![](https://github.com/SezorusArticles/Article_KZ001/blob/master/Images/image8.png)
 
@@ -228,9 +228,10 @@ Invite new users or select from existing. These users will be able to login with
 5.3 Setup attribute mapping from your provider to AWS. In this example we are only interested in email, so for email add next:
 
 **SAML Attribute**:
-[http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress](http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress)
+```http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress```
 
 **User pool attribute**: Email
+
 Save your changes.
 
 
@@ -282,6 +283,8 @@ The final list of settings which you should have at the end of this setup:
 8.  [https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-token-and-claims](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-token-and-claims)
 9.  [https://go.microsoft.com/fwLink/?LinkID=717349#configuring-and-testing-azure-ad-single-sign-on](https://go.microsoft.com/fwLink/?LinkID=717349#configuring-and-testing-azure-ad-single-sign-on)
 10.  [https://docs.microsoft.com/en-us/azure/active-directory/active-directory-enterprise-apps-manage-sso](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-enterprise-apps-manage-sso)  
+
+Author:
 
 Kseniia Zozulia
 
